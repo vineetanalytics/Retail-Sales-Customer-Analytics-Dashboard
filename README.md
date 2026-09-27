@@ -1,119 +1,143 @@
 # 🛍️ Retail Sales & Customer Analytics Dashboard
 
-An interactive **Retail Analytics Dashboard built with Microsoft Power BI** to analyze sales performance, product trends, customer behavior, and operational metrics.
+> An interactive Power BI dashboard designed to analyze retail sales, product performance, customer activity, and operational metrics.
 
-The project transforms retail sales data into an interactive reporting solution that helps users monitor key performance indicators, identify sales trends, analyze products, and understand customer and operational performance.
-
----
-
-## 📊 Dashboard Overview
-
-The Power BI report is divided into three analytical pages:
-
-### 1. Executive Sales Overview
-
-Provides a high-level view of overall retail performance through key KPIs, sales trends, and business performance indicators.
-
-![Executive Sales Overview](https://github.com/user-attachments/assets/d42c0470-3a9e-4619-a377-f99f60417946)
-
-**Key Highlights:**
-- Executive-level KPI overview
-- Total Revenue and Profit analysis
-- Units Sold and Return Rate tracking
-- Sales performance trends
-- Year-over-year performance comparison
-- Interactive filters for exploring the data
+This project transforms retail sales data into an interactive **Business Intelligence dashboard** that helps users explore key performance indicators, sales trends, products, customers, orders, and returns.
 
 ---
 
-### 2. Sales & Product Analysis
+## 📊 Dashboard Preview
 
-Focuses on understanding sales performance across products and categories.
+### Executive Sales Overview
 
-![Sales & Product Analysis](https://github.com/user-attachments/assets/62fb410a-e701-4320-9958-5b6e65644fdc)
+The executive page provides a high-level view of overall retail performance through key KPIs and interactive visualizations.
 
-**Key Highlights:**
-- Product-level sales analysis
-- Category performance comparison
-- Sales and profit trends
-- Units Sold analysis
-- Identification of high-performing products
-- Interactive product and sales filters
+<img width="1917" height="1038" alt="Executive Sales Overview" src="https://github.com/user-attachments/assets/d42c0470-3a9e-4619-a377-f99f60417946" />
 
 ---
 
-### 3. Customer & Operations Analysis
+### Sales & Product Analysis
 
-Provides insights into customer activity and operational performance.
+This page focuses on sales performance, product trends, category analysis, and profitability.
 
-![Customer & Operations Analysis](https://github.com/user-attachments/assets/331a91b7-86b9-4813-99cd-c2b817e97431)
-
-**Key Highlights:**
-- Customer performance analysis
-- Order and transaction insights
-- Return Rate monitoring
-- Operational performance indicators
-- Customer and product-level exploration
-- Interactive filtering and drill-down analysis
+<img width="1917" height="1035" alt="Sales & Product Analysis" src="https://github.com/user-attachments/assets/62fb410a-e701-4320-9958-5b6e65644fdc" />
 
 ---
 
-## 🚀 Features
+### Customer & Operations Analysis
 
-- 📌 Interactive KPI cards
+This page explores customer activity, orders, returns, and operational performance.
+
+<img width="1917" height="1040" alt="Customer & Operations Analysis" src="https://github.com/user-attachments/assets/331a91b7-86b9-4813-99cd-c2b817e97431" />
+
+---
+
+## 🎯 Project Objectives
+
+- Analyze overall retail sales performance
+- Track revenue and profitability
+- Monitor units sold and order activity
+- Analyze product and category performance
+- Understand customer-related metrics
+- Monitor return rate
+- Identify sales trends and performance patterns
+- Build an interactive business reporting solution
+
+---
+
+## 📌 Key KPIs
+
+The dashboard tracks important retail performance indicators including:
+
+| KPI | Purpose |
+|---|---|
+| 💰 **Total Revenue** | Measures overall revenue generated |
+| 📈 **Profit** | Tracks profitability |
+| 📦 **Units Sold** | Measures product volume sold |
+| 🛒 **Total Orders** | Tracks order activity |
+| % **Profit Margin** | Measures profitability relative to sales |
+| 🔄 **Return Rate** | Monitors product returns |
+
+---
+
+## 🚀 Dashboard Features
+
+- 📊 Interactive KPI cards
 - 📈 Sales trend analysis
 - 💰 Revenue and profit tracking
 - 📦 Units Sold analysis
-- 🔄 Return Rate monitoring
 - 🛒 Order performance analysis
 - 🏷️ Product and category analysis
 - 👥 Customer analysis
+- 🔄 Return Rate monitoring
 - 🔍 Interactive slicers and filters
-- 📊 Dynamic Power BI visualizations
-- 📅 Time-based sales analysis
-- 🎯 Business-focused dashboard design
+- 📅 Time-based analysis
+- 📌 Business-focused visualizations
+- 🎨 Clean and interactive dashboard design
+
+---
+
+## 📄 Dashboard Pages
+
+### 01 — Executive Sales Overview
+Provides an executive-level summary of retail performance.
+
+**Focus areas:**
+- Revenue
+- Profit
+- Units Sold
+- Orders
+- Return Rate
+- Overall sales performance
+
+### 02 — Sales & Product Analysis
+Provides a detailed view of sales and product performance.
+
+**Focus areas:**
+- Product performance
+- Category analysis
+- Sales trends
+- Profitability
+- Units Sold
+
+### 03 — Customer & Operations Analysis
+Analyzes customer activity and operational performance.
+
+**Focus areas:**
+- Customer performance
+- Orders
+- Returns
+- Operational metrics
+- Customer-related trends
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Tool | Purpose |
-|------|---------|
-| **Microsoft Power BI** | Dashboard development and data visualization |
-| **Power Query** | Data cleaning and transformation |
-| **DAX** | Measures, KPIs, and analytical calculations |
-| **Microsoft Excel** | Data source and initial data preparation |
+| Technology | Usage |
+|---|---|
+| **Microsoft Power BI** | Dashboard development & visualization |
+| **Power Query** | Data cleaning & transformation |
+| **DAX** | Measures, KPIs & calculations |
+| **Microsoft Excel** | Data source & data preparation |
 
 ---
 
-## 📐 Key KPIs
-
-The dashboard tracks important retail performance metrics such as:
-
-- **Total Revenue**
-- **Profit**
-- **Units Sold**
-- **Total Orders**
-- **Profit Margin**
-- **Return Rate**
-
-These KPIs provide a quick overview of business performance while allowing users to explore the underlying data through interactive visuals.
-
----
-
-## 🔄 Data Analysis Workflow
+## 🔄 Data Analytics Workflow
 
 ```text
-Raw Retail Data
-      ↓
-Data Cleaning & Transformation
-      ↓
+Retail Sales Data
+        ↓
+Data Cleaning
+        ↓
 Power Query
-      ↓
+        ↓
+Data Transformation
+        ↓
 Data Modeling
-      ↓
-DAX Measures & KPIs
-      ↓
+        ↓
+DAX Measures
+        ↓
 Interactive Power BI Dashboard
-      ↓
-Business Insights
+        ↓
+Business Analysis
